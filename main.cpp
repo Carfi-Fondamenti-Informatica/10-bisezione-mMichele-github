@@ -9,22 +9,22 @@ float funzione(float n){
 }
 
 int main()
-
 {
   float a, b, x;
+
   do
   {
       cout << "inserire estremi" << endl;
       cin >> a >> b;
   }
-  while(funzione(a)*funzione(b)>=0 || a > b);
-  float err;
+  while(funzione(a)*funzione(b)>=0 || a>b);
 
+  float err;
 
   do
   {
       x=(a+b)/2;
-      if(funzione(x==0.0))
+      if(funzione(x)==0)
       {
           break;
       }else if(funzione(a)*funzione(x)>0)
