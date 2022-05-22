@@ -14,7 +14,7 @@ int main()
   float a, b, x;
   do
   {
-      cout << "inserire estremi " << endl;
+      cout << "inserire estremi" << endl;
       cin >> a >> b;
   }
   while(funzione(a)*funzione(b)>=0 || a > b);
